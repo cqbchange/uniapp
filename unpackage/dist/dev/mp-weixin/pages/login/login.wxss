@@ -1,0 +1,14 @@
+
+.loginimg {
+	width: 600rpx;
+	margin: 0 auto;
+}
+.login {
+	width: 400rpx;
+	padding: 20rpx;
+	text-align: center;
+	border-radius: 44rpx;
+	margin: 50rpx auto;
+	background-color: #F2310C;
+}
+

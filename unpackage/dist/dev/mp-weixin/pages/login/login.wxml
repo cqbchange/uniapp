@@ -1,0 +1,1 @@
+<view class="loginmain"><view class="loginimg"><image class="loginimg" src="../../static/logo.png" mode></image></view><view data-event-opts="{{[['tap',[['login',['$event']]]]]}}" class="login" bindtap="__e">微信一建登录</view></view>

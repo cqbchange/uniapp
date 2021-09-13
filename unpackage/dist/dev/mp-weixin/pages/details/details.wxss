@@ -1,0 +1,234 @@
+
+.cont {
+	position: relative
+}
+.swiper {
+	width: 100%;
+	height: 400rpx;
+	/* position: ; */
+}
+.swiper-item {
+	width: 100%;
+	height: 400rpx;
+}
+.swiper-img {
+	width: 100%;
+	/* height: auto; */
+	height: 400rpx;
+}
+.num {
+	position: absolute;
+	bottom: 40rpx;
+	right: 0;
+	color: #FFFFFF;
+	padding: 5rpx 20rpx;
+	background-color: rgba(0, 0, 0, .5);
+	border-radius: 25rpx 0 0 25rpx;
+}
+.pricecont {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	padding: 20rpx 30rpx;
+}
+.fonntsize {
+	font-size: 20rpx;
+}
+.icon {
+	text-align: center;
+	justify: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	display: -webkit-flex
+}
+.price {
+	color: #FF4142;
+	margin-right: 20rpx;
+	justify: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	display: -webkit-flex
+}
+.priq {
+	font-size: 20rpx;
+}
+.pricc {
+	background-color: #FF4142;
+	color: #FFFFFF;
+	border-radius: 10rpx;
+	justify: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	display: -webkit-flex;
+	padding: 0 10rpx;
+}
+.ziying {
+	background-color: #FF4142;
+	color: #FFFFFF;
+	padding: 5rpx;
+	border-radius: 5rpx;
+	margin-right: 10rpx;
+	font-size: 20rpx;
+}
+.zhanwei {
+	-webkit-box-flex: 1;
+	-webkit-flex-grow: 1;
+	        flex-grow: 1;
+}
+.depreciate {
+	margin: 0 20rpx;
+}
+.shoppname {
+	padding: 0 20rpx;
+}
+.alllist {
+	-webkit-box-flex: 1;
+	-webkit-flex-grow: 1;
+	        flex-grow: 1;
+	padding: 0 20rpx;
+}
+.shenglve {
+	justify: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	display: -webkit-flex
+}
+.shade {
+	position: fixed;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+	background-color: rgba(0, 0, 0, .5);
+}
+.sshade {
+	background-color: #FFFFFF;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+.left {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.imgs {
+	width: 100rpx;
+	height: 100rpx;
+}
+.sitem2 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+}
+.comboitems {
+	background-color: #FCEDEB;
+	border: 1px solid #F2280E;
+	color: #F2280E;
+	padding: 10rpx 30rpx;
+	margin: 15rpx 50rpx 20rpx 0;
+	border-radius: 30rpx;
+}
+.comboitem {
+	padding: 10rpx 30rpx;
+	margin: 15rpx 50rpx 20rpx 0;
+	border-radius: 30rpx;
+	background-color: #F2F2F2;
+}
+.uni-input {
+	width: 60rpx;
+	margin: 0 20rpx;
+	background-color: #8F8F94;
+}
+.shopping {
+	background-color: #FFC70D;
+	color: #fff;
+	font-size: 30rpx;
+	width: 200rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	padding: 20rpx 0;
+	border-radius: 50rpx;
+	/* margin-right: 10rpx; */
+	margin: 20rpx auto;
+}
+.buy {
+	color: #fff;
+	font-size: 30rpx;
+	width: 200rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	padding: 20rpx 0;
+	border-radius: 50rpx;
+	background-color: #F2310C;
+	margin: 20rpx auto;
+}
+.quxiao {
+	padding: 20rpx;
+	-webkit-box-pack: end;
+	-webkit-justify-content: flex-end;
+	        justify-content: flex-end;
+	/* text-align: right; */
+}
+.icons {
+	width: 35rpx;
+	height: 35rpx;
+}
+.bottom {
+	position: fixed;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	bottom: 0;
+	width: 100%;
+	background-color: #F8F8F8;
+	padding: 0 20rpx;
+	box-sizing: border-box;
+}
+.gicon {
+	font-size: 50rpx;
+}
+.marg {
+	margin: 20rpx 0 20rpx 20rpx;
+}
+.shoppnum {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 1rpx 12rpx;
+	color: #F2310C;
+	border-radius: 50%;
+	border: 1rpx solid #F2310C;
+}
+.deticon {
+	font-size: 15rpx;
+}
+.depicon {
+	text-align: center;
+	justify: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+
