@@ -3,7 +3,7 @@
 		<view class="indedxtop">
 			<view class="topdata">
 				<view class="topitem" v-for="(item,index) in topdata" :key='index' @click="topitem(index)">
-					<view class="juzhong">
+					<view class="juzhong"> 
 						<text class="juzhong">{{item.name}}</text>
 						<text class="iconfont  juzhong" :class='item.icon'></text>
 					</view>
